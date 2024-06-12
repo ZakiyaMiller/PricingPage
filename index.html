@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--poppins-font-family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!--import icons-->
+    <script src="http://kit.font-awesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#pricing-table">Plans</a></li>
+                    <li><a href="#about-us">About</a></li>
+                    <li><a href="#endOfPage">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <!---------------------------home---------------------------------------------------->
+
+        <section id="home">
+            <div class="intro">
+                <div class="logo-heading">
+                    <div class="logo">
+                        <img height="55px" width="60px" src="images/logo.jpeg" alt="icon">
+                    </div>
+                    <div class="heading">
+                        <strong> Welcome to SpeechSwift!</strong>
+                    </div>
+                </div>
+                <div class="description">
+                    <span>Dive into immersive, interactive lessons designed to keep you motivated and make learning a
+                        new language fun and effective.</span>
+                    <div>
+                        <button class="registerBtn" onclick="location.href='#endOfPage'">Get Started</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="intro-image" id="introImage">
+
+            </div>
+
+
+
+            <div class="SSfeatures">
+                <div class="sub-heading">
+                    <strong>Why Choose SpeechSwift?</strong>
+                </div>
+                <!------------feature-1------------------------------------>
+
+                <section class="SSfeature">
+
+                    <div class="feature-img">
+                        <img height="200px" width="200px" src="images/undraw_online_learning_re_qw08.svg"
+                            alt="Interactive Lessons">
+                    </div>
+
+                    <div class="feature-description">
+                        <div class="feature-description-heading">
+                            <strong>Interactive Lessons</strong>
+                        </div>
+                        <div class="feature-description-p">
+                            <span>Engage in immersive and interactive lessons that use the latest language learning
+                                techniques to keep you motivated and help you retain new vocabulary and grammar
+                                effectively.</span>
+                        </div>
+                    </div>
+                </section>
+                <!------------feature-2------------------------------------>
+                <section class="SSfeature">
+
+                    <div class="feature-img">
+                        <img height="200px" width="200px" src="images/undraw_report_re_f5n5.svg"
+                            alt="Progress Tracking">
+                    </div>
+
+                    <div class="feature-description">
+                        <div class="feature-description-heading">
+                            <strong>Progress Tracking</strong>
+                        </div>
+                        <div class="feature-description-p">
+                            <span>Stay on top of your learning journey with our comprehensive progress tracking tools.
+                                Set goals, monitor your improvement, and celebrate your milestones.</span>
+                        </div>
+                    </div>
+                </section>
+                <!------------feature-3------------------------------------>
+                <section class="SSfeature">
+
+                    <div class="feature-img">
+                        <img height="200px" width="200px" src="images/undraw_social_interaction_re_dyjh.svg"
+                            alt="Community Support">
+                    </div>
+
+                    <div class="feature-description">
+                        <div class="feature-description-heading">
+                            <strong>Community Support</strong>
+                        </div>
+                        <div class="feature-description-p">
+                            <span>Join a vibrant community of language learners. Share your experiences, get support
+                                from peers and experts, and participate in group activities to enhance your
+                                learning.
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+
+            </div>
+        </section>
+
+        <div class="sub-heading">
+            <strong>Choose Your Language Learning Plan</strong>
+        </div>
+        <div class="description"><span>Flexible and affordable plans to help you learn a new language at your own
+                pace.</span></div>
+
+
+        </section>
+        <!---Pricing section--------------------------------------------------------------------------------------------->
+        <section id="pricing-table">
+            <div class="price-box-container">
+                <!--box-1----------------------------------------->
+                <div class="price-box">
+
+
+                    <!--head-section-->
+                    <div class="top-section">
+                        <div class="plan-name">
+                            <strong>Basic</strong>
+                            <span>Monthly Plan</span>
+                        </div>
+                        <!--img insertion-->
+                        <div class="plan-img">
+                            <img alt="image" src="images/FBasic.svg">
+                        </div>
+                        <!--cost-->
+                        <div class="price-section">
+                            <strong class="price">
+                                <span>$</span>
+                                <strong>20</strong>
+                                <span>/month</span>
+                            </strong>
+
+                        </div>
+                    </div>
+                    <!--feature-section-->
+                    <div class="features-section">
+                        <!--features-box-1-->
+                        <div class="features-box">
+                            <i class="fas fa-check"></i>
+                            <span>Access to 1 language course</span>
+                            <!--box-show-when-hover---->
+                            <div class="feature-details">
+                                <p>Enroll in any one of your desired language course.</p>
+                            </div>
+
+                        </div>
+                        <!--features-box-2--->
+                        <div class="features-box">
+                            <!--icon---->
+                            <i class="fas fa-check"></i>
+                            <span>Weekly progress reports</span>
+                            <!--box-show-when-hover---->
+                            <div class="feature-details">
+                                <p>Progress shared every week</p>
+                            </div>
+                        </div>
+
+                        <!--features-box-4--->
+                        <div class="features-box">
+                            <!--icon---->
+                            <i class="fas fa-check"></i>
+                            <span>Telegram support</span>
+                            <!--box-show-when-hover---->
+                            <div class="feature-details">
+                                <p>Dedicated telegram group for support</p>
+                            </div>
+                        </div>
+
+                        <!--chose-plan-btn------------------->
+
+                        <a href="#" class="choose-plan-btn">Choose Plan
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <!--box-2----------------------------------------->
+
+                <div class="price-box">
+                    <!--head-section-->
+                    <div class="top-section">
+                        <div class="plan-name">
+                            <strong>Pro</strong>
+                            <span>Quarterly Plan</span>
+                        </div>
+                        <!--img insertion-->
+                        <div class="plan-img">
+                            <img alt="image" src="images/FPro.svg">
+                        </div>
+                        <!--cost-->
+                        <div class="price-section">
+                            <div class="price">
+                                <span>$</span>
+                                <strong>50</strong>
+                                <span>/quarter</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--feature-section-->
+                    <div class="features-section">
+                        <!--features-box-1-->
+                        <div class="features-box">
+                            <i class="fas fa-check"></i>
+                            <span>Access to 3 language courses</span>
+                            <!--box-show-when-hover---->
+                            <div class="feature-details">
+                                <p>Enroll in any three of your desired language course.</p>
+                            </div>
+
+                        </div>
+                        <!--features-box-2--->
+                        <div class="features-box">
+                            <!--icon---->
+                            <i class="fas fa-check"></i>
+                            <span>Daily progress reports</span>
+                            <!--box-show-when-hover---->
+                            <div class="feature-details">
+                                <p>Progress shared on a daily basis</p>
+                            </div>
+                        </div>
+
+                        <!--features-box-4--->
+                        <div class="features-box">
+                            <!--icon---->
+                            <i class="fas fa-check"></i>
+                            <span>Priority telegram and email support</span>
+                            <!--box-show-when-hover---->
+                            <div class="feature-details">
+                                <p>Dedicated telegram group with mentor support</p>
+                            </div>
+                        </div>
+
+                        <!--chose-plan-btn------------------->
+
+                        <a href="#" class="choose-plan-btn">Choose Plan
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <!--box-3----------------------------------------->
+
+                <div class="price-box">
+                    <!--head-section-->
+                    <div class="top-section">
+                        <div class="plan-name">
+                            <strong>Premium<sup><img alt="image" src="images/smallDiamond (1).svg"></sup></strong>
+                            <span>Yearly Plan</span>
+                        </div>
+                        <!--img insertion-->
+                        <div class="plan-img">
+                            <img alt="image" src="images/FPremium.svg">
+                        </div>
+                        <!--cost-->
+                        <div class="price-section">
+                            <div class="price">
+                                <span>$</span>
+                                <strong>150</strong>
+                                <span>/year</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--feature-section-->
+                    <div class="features-section">
+                        <!--features-box-1-->
+                        <div class="features-box">
+                            <i class="fas fa-check"></i>
+                            <span>Access to All language courses</span>
+                            <!--box-show-when-hover---->
+                            <div class="feature-details">
+                                <p>Enroll in any of your desired language course.</p>
+                            </div>
+
+                        </div>
+                        <!--features-box-2--->
+                        <div class="features-box">
+                            <!--icon---->
+                            <i class="fas fa-check"></i>
+                            <span>Daily progress reports</span>
+                            <!--box-show-when-hover---->
+                            <div class="feature-details">
+                                <p>Progress shared on a daily basis</p>
+                            </div>
+                        </div>
+
+                        <!--features-box-3--->
+                        <div class="features-box">
+                            <!--icon---->
+                            <i class="fas fa-check"></i>
+                            <span>1-on-1 coaching sessions</span>
+                            <!--box-show-when-hover---->
+                            <div class="feature-details">
+                                <p>Live sessions with expert mentors along with recorded content </p>
+                            </div>
+                        </div>
+
+                        <!--features-box-4--->
+                        <div class="features-box">
+                            <!--icon---->
+                            <i class="fas fa-check"></i>
+                            <span>Phone support</span>
+                            <!--box-show-when-hover---->
+                            <div class="feature-details">
+                                <p>Phone support to increase productivity and improve efficiency</p>
+                            </div>
+                        </div>
+
+                        <!--chose-plan-btn------------------->
+
+                        <a href="#" class="choose-plan-btn">Choose Plan
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about-us">
+            <div class="sub-heading">
+                <strong>About Us</strong>
+            </div>
+            <div class="about-img">
+                <img height="200px" width="200px" src="images/Screenshot.png" alt="About Us">
+            </div>
+            <div class="description">
+                <span>SpeechSwift is dedicated to transforming the language learning experience through innovative,
+                    interactive lessons and comprehensive progress tracking tools. Our platform offers a vibrant
+                    community of learners and experts to support your journey to fluency. Whether you're a beginner or
+                    looking to refine your skills, SpeechSwift provides flexible, affordable plans to suit your needs
+                    and help you achieve your language goals. Join us today and embark on your path to mastering a new
+                    language with confidence and ease.</span>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p id="endOfPage">&copy; 2024 PricingPage.</p>
+        <div class="social-media">
+            <ul>
+                <a href="https://x.com/?lang=en">
+                    <li><img width="48" height="48" src="images/twitter.png" alt="" /></li>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <li><img width="48" height="48" src="images/instagram.png" alt="" /></li>
+                </a>
+                <a href="https://www.facebook.com/">
+                    <li><img width="48" height="48" src="images/facebook.png" alt="fb-logo" /></li>
+                </a>
+            </ul>
+        </div>
+
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
